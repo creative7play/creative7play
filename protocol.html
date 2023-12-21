@@ -1,0 +1,1530 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Реестр товаров, работ и услуг, используемых при проведении операций по недропользованию, и их производителей</title>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<!-- jQuery's CDN provided by MaxCDN -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+
+	<!-- Latest compiled and minified CSS -->
+	
+
+	<!-- Optional theme -->
+	<!--<link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap-theme.min.css">-->
+
+	<!-- Latest compiled and minified JavaScript -->
+	
+
+	<!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+	<!--[if lt IE 9]>
+	<script src="/bundles/lt-ie9?v=seBIJLF2cwvEpHwyPVO3VogNGdY97n8S2wBdzLTaOvs1"></script>
+
+	<![endif]-->
+
+    <script rel="script" src="/Scripts/10-bootstrap.js"></script>
+    <script rel="script" src="/Scripts/10-moment.js"></script>
+    <script rel="script" src="/Scripts/20-bootstrap-datetimepicker.js"></script>
+    <script rel="script" src="/Scripts/20-bootstrap-select.js"></script>
+    <script rel="script" src="/Scripts/30-bootstrap-datetimepicker.ru.js"></script>
+    <script rel="script" src="/Scripts/99-base64.js"></script>
+    <script rel="script" src="/Scripts/99-common.js"></script>
+    <script rel="script" src="/Scripts/99-contextmenu.js"></script>
+    <script rel="script" src="/Scripts/99-header.js"></script>
+    <script rel="script" src="/Scripts/99-jquery-blink.js"></script>
+    <script rel="script" src="/Scripts/99-localip.js"></script>
+    <script rel="script" src="/Scripts/99-signer.js?v=3"></script>
+
+	<link href="/Content/bootstrap.min.css" rel="stylesheet"/>
+
+	<link href="/bundles/css?v=AUhrJikI7Y3FYor2ZdUZlLJ2jcH6ghyRZ3frJSZ3gAw1" rel="stylesheet"/>
+
+
+
+	<link href="/print.css" rel="stylesheet" media="print" />
+	<script>
+		var Language = 'ru';
+		$.ajaxSetup({
+			// Disable caching of AJAX responses
+			cache: false
+		});
+	</script>
+</head>
+<body>
+
+
+<!-- HEADER -->
+<header>
+	<div class="header">
+		<div class="logo"><a href="/"><img src="/images/header.png" /></a></div>
+		<div class="heading">
+			&nbsp;&nbsp;Реестр товаров, работ и услуг, используемых при проведении операций по недропользованию, и их производителей
+		</div>
+	</div>
+	<nav class="navbar navbar-default menu" role="navigation">
+		<div class="container-fluid">
+			<!-- Brand and toggle get grouped for better mobile display -->
+			<div class="navbar-header">
+				<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+					<span class="sr-only">ГИС "Реестр"</span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+				</button>
+				<!--<a class="navbar-brand" href="#">Реестр товаров, работ и услуг, используемых при проведении операций по недропользованию, и их производителей</a>-->
+			</div>
+
+			<!-- Collect the nav links, forms, and other content for toggling -->
+			<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+				<ul class="nav navbar-nav">
+						<li class="dropdown">
+							<a href="" class="dropdown-toggle" tabindex="-1" data-toggle="dropdown">
+								Реестр <b class="caret"></b>
+							</a>
+								<ul class="dropdown-menu">
+						<li class="">
+							<a href="/ru/user/list/customers" class=""  >
+								Реестр заказчиков
+							</a>
+						</li>
+						<li class="dropdown-submenu">
+							<a href="/ru/tender/list" class="" tabindex="-1" >
+								Реестр закупок
+							</a>
+								<ul class="dropdown-menu">
+						<li class="">
+							<a href="/ru/tender/list" class=""  >
+								Проводимые закупки
+							</a>
+						</li>
+								</ul>
+						</li>
+								</ul>
+						</li>
+						<li class="dropdown">
+							<a href="" class="dropdown-toggle" tabindex="-1" data-toggle="dropdown">
+								Сведения о компании <b class="caret"></b>
+							</a>
+								<ul class="dropdown-menu">
+						<li class="">
+							<a href="/ru/user/profile" class=""  >
+								Карточка компании
+							</a>
+						</li>
+						<li class="">
+							<a href="/ru/offeredGWS/list" class=""  >
+								Предлагаемые ТРУ
+							</a>
+						</li>
+						<li class="">
+							<a href="/ru/user/mydata" class=""  >
+								Параметры учетной записи
+							</a>
+						</li>
+						<li class="">
+							<a href="/ru/Commission/list" class=""  >
+								Конкурсные комиссии
+							</a>
+						</li>
+						<li class="">
+							<a href="/ru/contractor/list" class=""  >
+								Подрядные закупки
+							</a>
+						</li>
+								</ul>
+						</li>
+						<li class="dropdown">
+							<a href="" class="dropdown-toggle" tabindex="-1" data-toggle="dropdown">
+								Дополнительно <b class="caret"></b>
+							</a>
+								<ul class="dropdown-menu">
+						<li class="">
+							<a href="/ru/page/static/documentation" class=""  >
+								Документация
+							</a>
+						</li>
+						<li class="">
+							<a href="/ru/page/static/adverts" class=""  >
+								Объявления
+							</a>
+						</li>
+						<li class="">
+							<a href="/ru/page/static/contacts" class=""  >
+								Контакты
+							</a>
+						</li>
+						<li class="">
+							<a href="/ru/page/static/law" class=""  >
+								Законодательство
+							</a>
+						</li>
+						<li class="">
+							<a href="/ru/page/static/usefulLinks" class=""  >
+								Полезные ссылки
+							</a>
+						</li>
+						<li class="">
+							<a href="/ru/page/faq" class=""  >
+								Вопросы и ответы
+							</a>
+						</li>
+								</ul>
+						</li>
+
+				</ul>
+				<ul class="nav navbar-nav navbar-right">
+					<li class="dropdown">
+						<a href="#" class="dropdown-toggle" data-toggle="dropdown"><span class="lang lang-ru"></span> Русский <b class="caret"></b></a>
+						<ul class="dropdown-menu">
+							<li><a href="/kz"><span class="lang lang-kz"></span> Қазақша</a></li>
+							<li><a href="/ru"><span class="lang lang-ru"></span> Русский</a></li>
+<!--
+							<li><a href="/kz/protocol/Get/399915?status=6?savelang=kz"><span class="lang lang-kz"></span> Қазақша</a></li>
+							<li><a href="/ru/protocol/Get/399915?status=6?savelang=ru"><span class="lang lang-ru"></span> Русский</a></li>
+-->
+						</ul>
+					</li>
+					<li><a href="/ru/user/mydata">Профиль</a></li>
+					<li><a href="/ru/user/logout">Выход</a></li>
+				</ul>
+			</div><!-- /.navbar-collapse -->
+		</div><!-- /.container-fluid -->
+	</nav>
+	<div style="position: absolute; top: 5px; right: 5px"><span class="label label-default">22.12.2023 02:09:24</span></div>
+</header>
+<!-- END OF HEADER -->
+
+<!-- CONTENT -->
+<div id="content" style="padding-left: 20px; padding-right: 20px;">
+
+<style>
+	.print_protocol td {
+		padding: 2px;
+	}
+
+	.print_protocol .title {
+		background: #e4e4e4;
+	}
+</style>
+<div id="protocol-form">
+	<div class="col-md-10 col-md-offset-1">
+		<div>
+			<div class="pull-right">
+				
+
+<a onclick="print(); return false" href="#" class="btn btn-warning btn-sm"><span class="glyphicon glyphicon-print"></span> Печать</a>
+
+			</div>
+			<div class="pull-left">
+				<a href="/ru/tender/view/399915" class="btn btn-primary btn-sm"><span class="glyphicon glyphicon-repeat"></span> Вернуться к закупке</a>
+			</div>
+		</div>
+		<div style="clear: both; padding-top: 10px; padding-bottom: 10px; ">
+
+<table width="100%" border="0" cellspacing="0" id="oi_protocol_table" class="print_protocol">
+	<tbody>
+		<tr>
+			<td colspan="2">
+				<div id="protocol_content">
+					<table width="100%">
+						<tbody>
+							<tr>
+								<td align="center">
+									
+                                    <strong>Протокол подведения итогов по закупу способом из одного источника<br>(Работы по ремонту и обслуживанию электростанций на месторождении)</strong>
+								</td>
+							</tr>
+						</tbody>
+					</table>
+                    <div id="plain_content_details">
+                        <table width="100%" border="1">
+                            <tbody>
+                                <tr>
+                                    <td class="title" align="">1. Наименование заказчика<br></td>
+                                    
+                                </tr>
+                                <tr>
+                                    <td align=""><strong><u>ТОО &quot;Сагиз Петролеум Компани&quot;</u></strong></td>
+                                    
+                                </tr>
+                            </tbody>
+                        </table>
+                        <table width="100%" border="1">
+                            <tbody>
+                                <tr>
+                                    <td class="title" align="">2. Местонахождение заказчика</td>
+                                </tr>
+                                <tr>
+                                    <td><strong><u>г.Актобе  пр. Санкибай батыра Строение 167В 110</u></strong></td>
+                                </tr>
+                            </tbody>
+                        </table>
+                        <table width="100%" border="1">
+                            <tbody>
+                                <tr>
+                                    <td class="title" align="">3. Основание для закупа из одного источника:</td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                            <b>Код несостоявшегося закупа: <a href="/ru/protocol/get/397077?status=6" target="_blank">2023.ОК-397077</a></b>
+                                        <strong>открытый конкурс, открытый конкурс на понижение (электронные торги) признан несостоявшимся:  в связи с отсутствием представленных потенциальными поставщиками конкурсных заявок, конкурсных ценовых предложений при проведении открытого конкурса на понижение (электронные торги); когда все конкурсные заявки или все конкурсные ценовые предложения потенциальных поставщиков отклонены как несоответствующие условиям открытого конкурса, открытого конкурса на понижение (электронные торги);</strong>
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                        <table width="100%" border="1">
+                            <tbody>
+                                <tr>
+                                    <td class="title" align="">4. Предмет приобретения ТРУ способом из одного источника:</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                        <table width="100%" border="1">
+                            <tbody>
+
+                                    <tr>
+                                        <td colspan="4"><strong>Номер и наименование лота: ЛОТ № 1 наименование лота Работы по ремонту и обслуживанию электростанций на месторождении Кардасын Северный</strong></td>
+                                    </tr>
+                                    <tr>
+                                        <td colspan="4"><strong>Сумма, выделенная для закупа, без учета НДС: <u>3 000 000.00 тенге.</u></strong></td>
+                                    </tr>
+                                    <tr>
+                                        
+                                        <td width="20%" align="center"><strong>Код СКП</strong></td>
+                                        <td width="25%" align="center"><strong>Краткое описание ТРУ</strong></td>
+                                        <td width="25%" align="center"><strong>Единица измерения</strong></td>
+                                        <td width="25%" align="center"><strong>Количество</strong></td>
+                                    </tr>
+                                        <tr>
+                                            <td>33.12.11<br><small><i>Услуги по ремонту и техническому обслуживанию двигателей и турбин, кроме двигателей авиационных, автомобильных и мотоциклетных</i></small></td>
+                                                <td align="center" rowspan="1">Работы по ремонту и обслуживанию электростанций на месторождении Кардасын Северный</td>
+                                            <td align="center">Одна работа</td>
+                                            <td align="center">1</td>
+                                        </tr>
+                                    <tr>
+                                        <td colspan="4"><strong>Номер и наименование лота: ЛОТ № 2 наименование лота Работы по ремонту и обслуживанию электростанций на месторождении Каганай </strong></td>
+                                    </tr>
+                                    <tr>
+                                        <td colspan="4"><strong>Сумма, выделенная для закупа, без учета НДС: <u>6 000 000.00 тенге.</u></strong></td>
+                                    </tr>
+                                    <tr>
+                                        
+                                        <td width="20%" align="center"><strong>Код СКП</strong></td>
+                                        <td width="25%" align="center"><strong>Краткое описание ТРУ</strong></td>
+                                        <td width="25%" align="center"><strong>Единица измерения</strong></td>
+                                        <td width="25%" align="center"><strong>Количество</strong></td>
+                                    </tr>
+                                        <tr>
+                                            <td>33.12.11<br><small><i>Услуги по ремонту и техническому обслуживанию двигателей и турбин, кроме двигателей авиационных, автомобильных и мотоциклетных</i></small></td>
+                                                <td align="center" rowspan="1">Работы по ремонту и обслуживанию электростанций на месторождении Каганай </td>
+                                            <td align="center">Одна работа</td>
+                                            <td align="center">1</td>
+                                        </tr>
+                                    <tr>
+                                        <td colspan="4"><strong>Номер и наименование лота: ЛОТ № 3 наименование лота Работы по ремонту и обслуживанию электростанций на месторождении Шокат </strong></td>
+                                    </tr>
+                                    <tr>
+                                        <td colspan="4"><strong>Сумма, выделенная для закупа, без учета НДС: <u>3 000 000.00 тенге.</u></strong></td>
+                                    </tr>
+                                    <tr>
+                                        
+                                        <td width="20%" align="center"><strong>Код СКП</strong></td>
+                                        <td width="25%" align="center"><strong>Краткое описание ТРУ</strong></td>
+                                        <td width="25%" align="center"><strong>Единица измерения</strong></td>
+                                        <td width="25%" align="center"><strong>Количество</strong></td>
+                                    </tr>
+                                        <tr>
+                                            <td>33.12.11<br><small><i>Услуги по ремонту и техническому обслуживанию двигателей и турбин, кроме двигателей авиационных, автомобильных и мотоциклетных</i></small></td>
+                                                <td align="center" rowspan="1">Работы по ремонту и обслуживанию электростанций на месторождении Шокат </td>
+                                            <td align="center">Одна работа</td>
+                                            <td align="center">1</td>
+                                        </tr>
+                                    <tr>
+                                        <td colspan="4"><strong>Номер и наименование лота: ЛОТ № 4 наименование лота Работы по ремонту и обслуживанию электростанций на месторождении Жантерек Северный</strong></td>
+                                    </tr>
+                                    <tr>
+                                        <td colspan="4"><strong>Сумма, выделенная для закупа, без учета НДС: <u>3 000 000.00 тенге.</u></strong></td>
+                                    </tr>
+                                    <tr>
+                                        
+                                        <td width="20%" align="center"><strong>Код СКП</strong></td>
+                                        <td width="25%" align="center"><strong>Краткое описание ТРУ</strong></td>
+                                        <td width="25%" align="center"><strong>Единица измерения</strong></td>
+                                        <td width="25%" align="center"><strong>Количество</strong></td>
+                                    </tr>
+                                        <tr>
+                                            <td>33.12.11<br><small><i>Услуги по ремонту и техническому обслуживанию двигателей и турбин, кроме двигателей авиационных, автомобильных и мотоциклетных</i></small></td>
+                                                <td align="center" rowspan="1">Работы по ремонту и обслуживанию электростанций на месторождении Жантерек Северный</td>
+                                            <td align="center">Одна работа</td>
+                                            <td align="center">1</td>
+                                        </tr>
+                                    <tr>
+                                        <td colspan="4"><strong>Номер и наименование лота: ЛОТ № 5 наименование лота Работы по ремонту и обслуживанию электростанций на месторождении Карашказган</strong></td>
+                                    </tr>
+                                    <tr>
+                                        <td colspan="4"><strong>Сумма, выделенная для закупа, без учета НДС: <u>6 000 000.00 тенге.</u></strong></td>
+                                    </tr>
+                                    <tr>
+                                        
+                                        <td width="20%" align="center"><strong>Код СКП</strong></td>
+                                        <td width="25%" align="center"><strong>Краткое описание ТРУ</strong></td>
+                                        <td width="25%" align="center"><strong>Единица измерения</strong></td>
+                                        <td width="25%" align="center"><strong>Количество</strong></td>
+                                    </tr>
+                                        <tr>
+                                            <td>33.12.11<br><small><i>Услуги по ремонту и техническому обслуживанию двигателей и турбин, кроме двигателей авиационных, автомобильных и мотоциклетных</i></small></td>
+                                                <td align="center" rowspan="1">Работы по ремонту и обслуживанию электростанций на месторождении Карашказган</td>
+                                            <td align="center">Одна работа</td>
+                                            <td align="center">1</td>
+                                        </tr>
+                                    <tr>
+                                        <td colspan="4"><strong>Номер и наименование лота: ЛОТ № 6 наименование лота Работы по ремонту и обслуживанию электростанций на месторождении Жартобе</strong></td>
+                                    </tr>
+                                    <tr>
+                                        <td colspan="4"><strong>Сумма, выделенная для закупа, без учета НДС: <u>3 000 000.00 тенге.</u></strong></td>
+                                    </tr>
+                                    <tr>
+                                        
+                                        <td width="20%" align="center"><strong>Код СКП</strong></td>
+                                        <td width="25%" align="center"><strong>Краткое описание ТРУ</strong></td>
+                                        <td width="25%" align="center"><strong>Единица измерения</strong></td>
+                                        <td width="25%" align="center"><strong>Количество</strong></td>
+                                    </tr>
+                                        <tr>
+                                            <td>33.12.11<br><small><i>Услуги по ремонту и техническому обслуживанию двигателей и турбин, кроме двигателей авиационных, автомобильных и мотоциклетных</i></small></td>
+                                                <td align="center" rowspan="1">Работы по ремонту и обслуживанию электростанций на месторождении Жартобе</td>
+                                            <td align="center">Одна работа</td>
+                                            <td align="center">1</td>
+                                        </tr>
+                                    <tr>
+                                        <td colspan="4"><strong>Номер и наименование лота: ЛОТ № 7 наименование лота Работы по ремонту и обслуживанию электростанций на УПН (Установка подготовки нефти)</strong></td>
+                                    </tr>
+                                    <tr>
+                                        <td colspan="4"><strong>Сумма, выделенная для закупа, без учета НДС: <u>40 000 000.00 тенге.</u></strong></td>
+                                    </tr>
+                                    <tr>
+                                        
+                                        <td width="20%" align="center"><strong>Код СКП</strong></td>
+                                        <td width="25%" align="center"><strong>Краткое описание ТРУ</strong></td>
+                                        <td width="25%" align="center"><strong>Единица измерения</strong></td>
+                                        <td width="25%" align="center"><strong>Количество</strong></td>
+                                    </tr>
+                                        <tr>
+                                            <td>33.12.11<br><small><i>Услуги по ремонту и техническому обслуживанию двигателей и турбин, кроме двигателей авиационных, автомобильных и мотоциклетных</i></small></td>
+                                                <td align="center" rowspan="1">Работы по ремонту и обслуживанию электростанций на УПН (Установка подготовки нефти)</td>
+                                            <td align="center">Одна работа</td>
+                                            <td align="center">1</td>
+                                        </tr>
+                                    <tr>
+                                        <td colspan="4"><strong>Номер и наименование лота: ЛОТ № 8 наименование лота Работы по ремонту и обслуживанию электростанций на месторождении Сарыкумак Восточный</strong></td>
+                                    </tr>
+                                    <tr>
+                                        <td colspan="4"><strong>Сумма, выделенная для закупа, без учета НДС: <u>3 000 000.00 тенге.</u></strong></td>
+                                    </tr>
+                                    <tr>
+                                        
+                                        <td width="20%" align="center"><strong>Код СКП</strong></td>
+                                        <td width="25%" align="center"><strong>Краткое описание ТРУ</strong></td>
+                                        <td width="25%" align="center"><strong>Единица измерения</strong></td>
+                                        <td width="25%" align="center"><strong>Количество</strong></td>
+                                    </tr>
+                                        <tr>
+                                            <td>33.12.11<br><small><i>Услуги по ремонту и техническому обслуживанию двигателей и турбин, кроме двигателей авиационных, автомобильных и мотоциклетных</i></small></td>
+                                                <td align="center" rowspan="1">Работы по ремонту и обслуживанию электростанций на месторождении Сарыкумак Восточный</td>
+                                            <td align="center">Одна работа</td>
+                                            <td align="center">1</td>
+                                        </tr>
+                                    <tr>
+                                        <td colspan="4"><strong>Номер и наименование лота: ЛОТ № 9 наименование лота Работы по ремонту и обслуживанию электростанций на месторождении Сарыкумак Западный</strong></td>
+                                    </tr>
+                                    <tr>
+                                        <td colspan="4"><strong>Сумма, выделенная для закупа, без учета НДС: <u>3 000 000.00 тенге.</u></strong></td>
+                                    </tr>
+                                    <tr>
+                                        
+                                        <td width="20%" align="center"><strong>Код СКП</strong></td>
+                                        <td width="25%" align="center"><strong>Краткое описание ТРУ</strong></td>
+                                        <td width="25%" align="center"><strong>Единица измерения</strong></td>
+                                        <td width="25%" align="center"><strong>Количество</strong></td>
+                                    </tr>
+                                        <tr>
+                                            <td>33.12.11<br><small><i>Услуги по ремонту и техническому обслуживанию двигателей и турбин, кроме двигателей авиационных, автомобильных и мотоциклетных</i></small></td>
+                                                <td align="center" rowspan="1">Работы по ремонту и обслуживанию электростанций на месторождении Сарыкумак Западный</td>
+                                            <td align="center">Одна работа</td>
+                                            <td align="center">1</td>
+                                        </tr>
+                                    <tr>
+                                        <td colspan="4"><strong>Номер и наименование лота: ЛОТ № 10 наименование лота Работы по ремонту и обслуживанию электростанций на ЦППН (Центральный пункт подготовки нефти)</strong></td>
+                                    </tr>
+                                    <tr>
+                                        <td colspan="4"><strong>Сумма, выделенная для закупа, без учета НДС: <u>5 000 000.00 тенге.</u></strong></td>
+                                    </tr>
+                                    <tr>
+                                        
+                                        <td width="20%" align="center"><strong>Код СКП</strong></td>
+                                        <td width="25%" align="center"><strong>Краткое описание ТРУ</strong></td>
+                                        <td width="25%" align="center"><strong>Единица измерения</strong></td>
+                                        <td width="25%" align="center"><strong>Количество</strong></td>
+                                    </tr>
+                                        <tr>
+                                            <td>33.12.11<br><small><i>Услуги по ремонту и техническому обслуживанию двигателей и турбин, кроме двигателей авиационных, автомобильных и мотоциклетных</i></small></td>
+                                                <td align="center" rowspan="1">Работы по ремонту и обслуживанию электростанций на ЦППН (Центральный пункт подготовки нефти)</td>
+                                            <td align="center">Одна работа</td>
+                                            <td align="center">1</td>
+                                        </tr>
+                            </tbody>
+                        </table>
+                        <table width="100%" border="1">
+                            <tbody>
+                                <tr>
+                                    <td class="title" align="">5. Номера лицензии (контрактов) на недропользование, в рамках которых осуществляется закуп:</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                      <table width="100%" border="1">
+                    <tbody>
+                    
+
+
+                        <tr>
+                            <td colspan="4"><strong>Номер и наименование лота: ЛОТ № 1 наименование лота Работы по ремонту и обслуживанию электростанций на месторождении Кардасын Северный</strong></td>
+                        </tr>
+                            <tr>
+                                <td>Лицензия(контракт) № <u>366</u> от <u>16.09.1999</u>.</br></td>
+                            </tr>
+                        <tr>
+                            <td colspan="4"><strong>Номер и наименование лота: ЛОТ № 2 наименование лота Работы по ремонту и обслуживанию электростанций на месторождении Каганай </strong></td>
+                        </tr>
+                            <tr>
+                                <td>Лицензия(контракт) № <u>366</u> от <u>16.09.1999</u>.</br></td>
+                            </tr>
+                        <tr>
+                            <td colspan="4"><strong>Номер и наименование лота: ЛОТ № 3 наименование лота Работы по ремонту и обслуживанию электростанций на месторождении Шокат </strong></td>
+                        </tr>
+                            <tr>
+                                <td>Лицензия(контракт) № <u>366</u> от <u>16.09.1999</u>.</br></td>
+                            </tr>
+                        <tr>
+                            <td colspan="4"><strong>Номер и наименование лота: ЛОТ № 4 наименование лота Работы по ремонту и обслуживанию электростанций на месторождении Жантерек Северный</strong></td>
+                        </tr>
+                            <tr>
+                                <td>Лицензия(контракт) № <u>366</u> от <u>16.09.1999</u>.</br></td>
+                            </tr>
+                        <tr>
+                            <td colspan="4"><strong>Номер и наименование лота: ЛОТ № 5 наименование лота Работы по ремонту и обслуживанию электростанций на месторождении Карашказган</strong></td>
+                        </tr>
+                            <tr>
+                                <td>Лицензия(контракт) № <u>366</u> от <u>16.09.1999</u>.</br></td>
+                            </tr>
+                        <tr>
+                            <td colspan="4"><strong>Номер и наименование лота: ЛОТ № 6 наименование лота Работы по ремонту и обслуживанию электростанций на месторождении Жартобе</strong></td>
+                        </tr>
+                            <tr>
+                                <td>Лицензия(контракт) № <u>366</u> от <u>16.09.1999</u>.</br></td>
+                            </tr>
+                        <tr>
+                            <td colspan="4"><strong>Номер и наименование лота: ЛОТ № 7 наименование лота Работы по ремонту и обслуживанию электростанций на УПН (Установка подготовки нефти)</strong></td>
+                        </tr>
+                            <tr>
+                                <td>Лицензия(контракт) № <u>366</u> от <u>16.09.1999</u>.</br></td>
+                            </tr>
+                        <tr>
+                            <td colspan="4"><strong>Номер и наименование лота: ЛОТ № 8 наименование лота Работы по ремонту и обслуживанию электростанций на месторождении Сарыкумак Восточный</strong></td>
+                        </tr>
+                            <tr>
+                                <td>Лицензия(контракт) № <u>366</u> от <u>16.09.1999</u>.</br></td>
+                            </tr>
+                        <tr>
+                            <td colspan="4"><strong>Номер и наименование лота: ЛОТ № 9 наименование лота Работы по ремонту и обслуживанию электростанций на месторождении Сарыкумак Западный</strong></td>
+                        </tr>
+                            <tr>
+                                <td>Лицензия(контракт) № <u>366</u> от <u>16.09.1999</u>.</br></td>
+                            </tr>
+                        <tr>
+                            <td colspan="4"><strong>Номер и наименование лота: ЛОТ № 10 наименование лота Работы по ремонту и обслуживанию электростанций на ЦППН (Центральный пункт подготовки нефти)</strong></td>
+                        </tr>
+                            <tr>
+                                <td>Лицензия(контракт) № <u>366</u> от <u>16.09.1999</u>.</br></td>
+                            </tr>
+            </tbody>
+            </table>
+            <table width="100%" border="1">
+                <tbody></tbody>
+            </table>
+                        <table width="100%" border="1">
+                            <tbody>
+                                <tr>
+                                    <td class="title" align="">6. Наименование поставщика, сроки и место поставки товаров, выполнения работ, оказания услуг</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                        <table width="100%" border="1">
+                            <tbody>
+
+                                    <tr>
+                                        <td colspan="5"><strong>Номер и наименование лота: ЛОТ № 1 наименование лота Работы по ремонту и обслуживанию электростанций на месторождении Кардасын Северный</strong></td>
+                                    </tr>
+                                    <tr>
+                                        <td width="5%" align="center"><strong>№ п/п</strong></td>
+                                        
+                                        <td width="15%" align="center"><strong>Наименование (фамилия, имя) поставщика</strong></td>
+                                        <td width="20%" align="center"><strong>Адрес фактического местонахождения (юридический адрес для физического лица) потенциального поставщика</strong></td>
+                                        <td width="20%" align="center"><strong>Срок поставки товаров, выполнения работ, оказания услуг</strong></td>
+                                        <td width="15%" align="center"><strong>Место поставки товаров, выполнения работ, оказания услуг</strong></td>
+                                        
+                                    </tr>
+                                        <div>
+
+                                        </div>
+                                        <tr>
+                                                <td rowspan="1" align="center">1</td>
+                                                <td id="shw_winner-1">ТОО &quot;АктобеБолатСервисМунай&quot;</td>
+                                                <td align="center" id="winner-1-addr">
+                                                    г.Актобе  проспект Алии Молдагуловой  дом 46 кабинет №5
+                                                </td>
+                                                <td align="center">
+                                                    <small>
+                                                            <span>С момента подписания договора по 31.12.2024 года, согласно графику.</span>
+                                                    </small>
+                                                </td>
+                                                <td align="center">Актюбинская область, Байганинский район, месторождение Кардасын Северный</td>
+                                        </tr>
+                                    <tr>
+                                        <td colspan="5"><strong>Номер и наименование лота: ЛОТ № 2 наименование лота Работы по ремонту и обслуживанию электростанций на месторождении Каганай </strong></td>
+                                    </tr>
+                                    <tr>
+                                        <td width="5%" align="center"><strong>№ п/п</strong></td>
+                                        
+                                        <td width="15%" align="center"><strong>Наименование (фамилия, имя) поставщика</strong></td>
+                                        <td width="20%" align="center"><strong>Адрес фактического местонахождения (юридический адрес для физического лица) потенциального поставщика</strong></td>
+                                        <td width="20%" align="center"><strong>Срок поставки товаров, выполнения работ, оказания услуг</strong></td>
+                                        <td width="15%" align="center"><strong>Место поставки товаров, выполнения работ, оказания услуг</strong></td>
+                                        
+                                    </tr>
+                                        <div>
+
+                                        </div>
+                                        <tr>
+                                                <td rowspan="1" align="center">1</td>
+                                                <td id="shw_winner-2">ТОО &quot;АктобеБолатСервисМунай&quot;</td>
+                                                <td align="center" id="winner-2-addr">
+                                                    г.Актобе  проспект Алии Молдагуловой  дом 46 кабинет №5
+                                                </td>
+                                                <td align="center">
+                                                    <small>
+                                                            <span>С момента подписания договора по 31.12.2024 года, согласно графику.</span>
+                                                    </small>
+                                                </td>
+                                                <td align="center">Актюбинская область, Байганинский район, месторождение  Каганай</td>
+                                        </tr>
+                                    <tr>
+                                        <td colspan="5"><strong>Номер и наименование лота: ЛОТ № 3 наименование лота Работы по ремонту и обслуживанию электростанций на месторождении Шокат </strong></td>
+                                    </tr>
+                                    <tr>
+                                        <td width="5%" align="center"><strong>№ п/п</strong></td>
+                                        
+                                        <td width="15%" align="center"><strong>Наименование (фамилия, имя) поставщика</strong></td>
+                                        <td width="20%" align="center"><strong>Адрес фактического местонахождения (юридический адрес для физического лица) потенциального поставщика</strong></td>
+                                        <td width="20%" align="center"><strong>Срок поставки товаров, выполнения работ, оказания услуг</strong></td>
+                                        <td width="15%" align="center"><strong>Место поставки товаров, выполнения работ, оказания услуг</strong></td>
+                                        
+                                    </tr>
+                                        <div>
+
+                                        </div>
+                                        <tr>
+                                                <td rowspan="1" align="center">1</td>
+                                                <td id="shw_winner-3">ТОО &quot;АктобеБолатСервисМунай&quot;</td>
+                                                <td align="center" id="winner-3-addr">
+                                                    г.Актобе  проспект Алии Молдагуловой  дом 46 кабинет №5
+                                                </td>
+                                                <td align="center">
+                                                    <small>
+                                                            <span>С момента подписания договора по 31.12.2024 года, согласно графику.</span>
+                                                    </small>
+                                                </td>
+                                                <td align="center">Атырауская область, Кызылкогинский район, месторождение Шокат</td>
+                                        </tr>
+                                    <tr>
+                                        <td colspan="5"><strong>Номер и наименование лота: ЛОТ № 4 наименование лота Работы по ремонту и обслуживанию электростанций на месторождении Жантерек Северный</strong></td>
+                                    </tr>
+                                    <tr>
+                                        <td width="5%" align="center"><strong>№ п/п</strong></td>
+                                        
+                                        <td width="15%" align="center"><strong>Наименование (фамилия, имя) поставщика</strong></td>
+                                        <td width="20%" align="center"><strong>Адрес фактического местонахождения (юридический адрес для физического лица) потенциального поставщика</strong></td>
+                                        <td width="20%" align="center"><strong>Срок поставки товаров, выполнения работ, оказания услуг</strong></td>
+                                        <td width="15%" align="center"><strong>Место поставки товаров, выполнения работ, оказания услуг</strong></td>
+                                        
+                                    </tr>
+                                        <div>
+
+                                        </div>
+                                        <tr>
+                                                <td rowspan="1" align="center">1</td>
+                                                <td id="shw_winner-4">ТОО &quot;АктобеБолатСервисМунай&quot;</td>
+                                                <td align="center" id="winner-4-addr">
+                                                    г.Актобе  проспект Алии Молдагуловой  дом 46 кабинет №5
+                                                </td>
+                                                <td align="center">
+                                                    <small>
+                                                            <span>С момента подписания договора по 31.12.2024 года, согласно графику.</span>
+                                                    </small>
+                                                </td>
+                                                <td align="center">Атырауская область, Кызылкогинский район, месторождение Жантерек Северный</td>
+                                        </tr>
+                                    <tr>
+                                        <td colspan="5"><strong>Номер и наименование лота: ЛОТ № 5 наименование лота Работы по ремонту и обслуживанию электростанций на месторождении Карашказган</strong></td>
+                                    </tr>
+                                    <tr>
+                                        <td width="5%" align="center"><strong>№ п/п</strong></td>
+                                        
+                                        <td width="15%" align="center"><strong>Наименование (фамилия, имя) поставщика</strong></td>
+                                        <td width="20%" align="center"><strong>Адрес фактического местонахождения (юридический адрес для физического лица) потенциального поставщика</strong></td>
+                                        <td width="20%" align="center"><strong>Срок поставки товаров, выполнения работ, оказания услуг</strong></td>
+                                        <td width="15%" align="center"><strong>Место поставки товаров, выполнения работ, оказания услуг</strong></td>
+                                        
+                                    </tr>
+                                        <div>
+
+                                        </div>
+                                        <tr>
+                                                <td rowspan="1" align="center">1</td>
+                                                <td id="shw_winner-5">ТОО &quot;АктобеБолатСервисМунай&quot;</td>
+                                                <td align="center" id="winner-5-addr">
+                                                    г.Актобе  проспект Алии Молдагуловой  дом 46 кабинет №5
+                                                </td>
+                                                <td align="center">
+                                                    <small>
+                                                            <span>С момента подписания договора по 31.12.2024 года, согласно графику.</span>
+                                                    </small>
+                                                </td>
+                                                <td align="center">Атырауская область, Кызылкогинский район, месторождение Карашказган</td>
+                                        </tr>
+                                    <tr>
+                                        <td colspan="5"><strong>Номер и наименование лота: ЛОТ № 6 наименование лота Работы по ремонту и обслуживанию электростанций на месторождении Жартобе</strong></td>
+                                    </tr>
+                                    <tr>
+                                        <td width="5%" align="center"><strong>№ п/п</strong></td>
+                                        
+                                        <td width="15%" align="center"><strong>Наименование (фамилия, имя) поставщика</strong></td>
+                                        <td width="20%" align="center"><strong>Адрес фактического местонахождения (юридический адрес для физического лица) потенциального поставщика</strong></td>
+                                        <td width="20%" align="center"><strong>Срок поставки товаров, выполнения работ, оказания услуг</strong></td>
+                                        <td width="15%" align="center"><strong>Место поставки товаров, выполнения работ, оказания услуг</strong></td>
+                                        
+                                    </tr>
+                                        <div>
+
+                                        </div>
+                                        <tr>
+                                                <td rowspan="1" align="center">1</td>
+                                                <td id="shw_winner-6">ТОО &quot;АктобеБолатСервисМунай&quot;</td>
+                                                <td align="center" id="winner-6-addr">
+                                                    г.Актобе  проспект Алии Молдагуловой  дом 46 кабинет №5
+                                                </td>
+                                                <td align="center">
+                                                    <small>
+                                                            <span>С момента подписания договора по 31.12.2024 года, согласно графику.</span>
+                                                    </small>
+                                                </td>
+                                                <td align="center">Атырауская область, Кызылкогинский район, месторождение Жартобе</td>
+                                        </tr>
+                                    <tr>
+                                        <td colspan="5"><strong>Номер и наименование лота: ЛОТ № 7 наименование лота Работы по ремонту и обслуживанию электростанций на УПН (Установка подготовки нефти)</strong></td>
+                                    </tr>
+                                    <tr>
+                                        <td width="5%" align="center"><strong>№ п/п</strong></td>
+                                        
+                                        <td width="15%" align="center"><strong>Наименование (фамилия, имя) поставщика</strong></td>
+                                        <td width="20%" align="center"><strong>Адрес фактического местонахождения (юридический адрес для физического лица) потенциального поставщика</strong></td>
+                                        <td width="20%" align="center"><strong>Срок поставки товаров, выполнения работ, оказания услуг</strong></td>
+                                        <td width="15%" align="center"><strong>Место поставки товаров, выполнения работ, оказания услуг</strong></td>
+                                        
+                                    </tr>
+                                        <div>
+
+                                        </div>
+                                        <tr>
+                                                <td rowspan="1" align="center">1</td>
+                                                <td id="shw_winner-7">ТОО &quot;АктобеБолатСервисМунай&quot;</td>
+                                                <td align="center" id="winner-7-addr">
+                                                    г.Актобе  проспект Алии Молдагуловой  дом 46 кабинет №5
+                                                </td>
+                                                <td align="center">
+                                                    <small>
+                                                            <span>С момента подписания договора по 31.12.2024 года, согласно графику.</span>
+                                                    </small>
+                                                </td>
+                                                <td align="center">Актюбинская область, Байганинский район, месторождение Ащиколь Южный, Установка подготовки нефти</td>
+                                        </tr>
+                                    <tr>
+                                        <td colspan="5"><strong>Номер и наименование лота: ЛОТ № 8 наименование лота Работы по ремонту и обслуживанию электростанций на месторождении Сарыкумак Восточный</strong></td>
+                                    </tr>
+                                    <tr>
+                                        <td width="5%" align="center"><strong>№ п/п</strong></td>
+                                        
+                                        <td width="15%" align="center"><strong>Наименование (фамилия, имя) поставщика</strong></td>
+                                        <td width="20%" align="center"><strong>Адрес фактического местонахождения (юридический адрес для физического лица) потенциального поставщика</strong></td>
+                                        <td width="20%" align="center"><strong>Срок поставки товаров, выполнения работ, оказания услуг</strong></td>
+                                        <td width="15%" align="center"><strong>Место поставки товаров, выполнения работ, оказания услуг</strong></td>
+                                        
+                                    </tr>
+                                        <div>
+
+                                        </div>
+                                        <tr>
+                                                <td rowspan="1" align="center">1</td>
+                                                <td id="shw_winner-8">ТОО &quot;АктобеБолатСервисМунай&quot;</td>
+                                                <td align="center" id="winner-8-addr">
+                                                    г.Актобе  проспект Алии Молдагуловой  дом 46 кабинет №5
+                                                </td>
+                                                <td align="center">
+                                                    <small>
+                                                            <span>С момента подписания договора по 31.12.2024 года, согласно графику.</span>
+                                                    </small>
+                                                </td>
+                                                <td align="center">Атырауская область, Кызылкогинский район, месторождение Сарыкумак Восточный</td>
+                                        </tr>
+                                    <tr>
+                                        <td colspan="5"><strong>Номер и наименование лота: ЛОТ № 9 наименование лота Работы по ремонту и обслуживанию электростанций на месторождении Сарыкумак Западный</strong></td>
+                                    </tr>
+                                    <tr>
+                                        <td width="5%" align="center"><strong>№ п/п</strong></td>
+                                        
+                                        <td width="15%" align="center"><strong>Наименование (фамилия, имя) поставщика</strong></td>
+                                        <td width="20%" align="center"><strong>Адрес фактического местонахождения (юридический адрес для физического лица) потенциального поставщика</strong></td>
+                                        <td width="20%" align="center"><strong>Срок поставки товаров, выполнения работ, оказания услуг</strong></td>
+                                        <td width="15%" align="center"><strong>Место поставки товаров, выполнения работ, оказания услуг</strong></td>
+                                        
+                                    </tr>
+                                        <div>
+
+                                        </div>
+                                        <tr>
+                                                <td rowspan="1" align="center">1</td>
+                                                <td id="shw_winner-9">ТОО &quot;АктобеБолатСервисМунай&quot;</td>
+                                                <td align="center" id="winner-9-addr">
+                                                    г.Актобе  проспект Алии Молдагуловой  дом 46 кабинет №5
+                                                </td>
+                                                <td align="center">
+                                                    <small>
+                                                            <span>С момента подписания договора по 31.12.2024 года, согласно графику.</span>
+                                                    </small>
+                                                </td>
+                                                <td align="center">Атырауская область, Кызылкогинский район, месторождение Сарыкумак Западный</td>
+                                        </tr>
+                                    <tr>
+                                        <td colspan="5"><strong>Номер и наименование лота: ЛОТ № 10 наименование лота Работы по ремонту и обслуживанию электростанций на ЦППН (Центральный пункт подготовки нефти)</strong></td>
+                                    </tr>
+                                    <tr>
+                                        <td width="5%" align="center"><strong>№ п/п</strong></td>
+                                        
+                                        <td width="15%" align="center"><strong>Наименование (фамилия, имя) поставщика</strong></td>
+                                        <td width="20%" align="center"><strong>Адрес фактического местонахождения (юридический адрес для физического лица) потенциального поставщика</strong></td>
+                                        <td width="20%" align="center"><strong>Срок поставки товаров, выполнения работ, оказания услуг</strong></td>
+                                        <td width="15%" align="center"><strong>Место поставки товаров, выполнения работ, оказания услуг</strong></td>
+                                        
+                                    </tr>
+                                        <div>
+
+                                        </div>
+                                        <tr>
+                                                <td rowspan="1" align="center">1</td>
+                                                <td id="shw_winner-10">ТОО &quot;АктобеБолатСервисМунай&quot;</td>
+                                                <td align="center" id="winner-10-addr">
+                                                    г.Актобе  проспект Алии Молдагуловой  дом 46 кабинет №5
+                                                </td>
+                                                <td align="center">
+                                                    <small>
+                                                            <span>С момента подписания договора по 31.12.2024 года, согласно графику.</span>
+                                                    </small>
+                                                </td>
+                                                <td align="center">Актюбинская область, Байганинский район, месторождение Таскудук,  Центральный пункт подготовки нефти</td>
+                                        </tr>
+                            </tbody>
+                        </table>
+                        <table width="100%" border="1">
+                            <tbody>
+                                <tr>
+                                    <td class="title" align="">7. Цена, предложенная поставщиком на предлагаемые ТРУ по каждому лоту, выраженная в тенге, включающая в себя все расходы, связанные с поставкой товаров, выполнением работ, оказанием услуг</td>
+                                </tr>
+                            </tbody>
+                        </table>
+
+                        
+                        <table width="100%" border="1">
+                            <tbody>
+
+                                    <tr>
+                                        <td colspan="5"><strong>Номер и наименование лота: ЛОТ № 1 наименование лота Работы по ремонту и обслуживанию электростанций на месторождении Кардасын Северный</strong></td>
+                                    </tr>
+                                    <tr>
+                                        <td colspan="5"><strong>Сумма, выделенная для закупа, без учета НДС: <u>3 000 000.00 тенге.</u></strong></td>
+                                    </tr>
+                                    <tr>
+                                        <td width="10%" align="center"><strong>№ п/п</strong></td>
+                                        <td width="20%" align="center"><strong>Наименование (фамилия, имя) поставщика</strong></td>
+                                        
+                                        <td width="20%" align="center"><strong>Предложенная цена, без учета НДС</strong></td>
+                                        <td width="20%" align="center"><strong>Обязательство по местному содержанию</strong></td>
+                                        <td width="20%" align="center"><strong>Срок заключения договора</strong></td>
+                                    </tr>
+                                            <tr>
+                                                
+                                                <td align="center">1</td>
+                                                <td id="shw_winner2-1">ТОО &quot;АктобеБолатСервисМунай&quot;</td>
+                                                
+                                                <td align="center">3 000 000.00</td>
+                                                <td align="center">60.00%</td>
+                                                <td align="center">10 Рабочих дней со дня подписания протокола</td>
+                                            </tr>
+                                    <tr>
+                                        <td colspan="5"><strong>Номер и наименование лота: ЛОТ № 2 наименование лота Работы по ремонту и обслуживанию электростанций на месторождении Каганай </strong></td>
+                                    </tr>
+                                    <tr>
+                                        <td colspan="5"><strong>Сумма, выделенная для закупа, без учета НДС: <u>6 000 000.00 тенге.</u></strong></td>
+                                    </tr>
+                                    <tr>
+                                        <td width="10%" align="center"><strong>№ п/п</strong></td>
+                                        <td width="20%" align="center"><strong>Наименование (фамилия, имя) поставщика</strong></td>
+                                        
+                                        <td width="20%" align="center"><strong>Предложенная цена, без учета НДС</strong></td>
+                                        <td width="20%" align="center"><strong>Обязательство по местному содержанию</strong></td>
+                                        <td width="20%" align="center"><strong>Срок заключения договора</strong></td>
+                                    </tr>
+                                            <tr>
+                                                
+                                                <td align="center">1</td>
+                                                <td id="shw_winner2-2">ТОО &quot;АктобеБолатСервисМунай&quot;</td>
+                                                
+                                                <td align="center">6 000 000.00</td>
+                                                <td align="center">60.00%</td>
+                                                <td align="center">10 Рабочих дней со дня подписания протокола</td>
+                                            </tr>
+                                    <tr>
+                                        <td colspan="5"><strong>Номер и наименование лота: ЛОТ № 3 наименование лота Работы по ремонту и обслуживанию электростанций на месторождении Шокат </strong></td>
+                                    </tr>
+                                    <tr>
+                                        <td colspan="5"><strong>Сумма, выделенная для закупа, без учета НДС: <u>3 000 000.00 тенге.</u></strong></td>
+                                    </tr>
+                                    <tr>
+                                        <td width="10%" align="center"><strong>№ п/п</strong></td>
+                                        <td width="20%" align="center"><strong>Наименование (фамилия, имя) поставщика</strong></td>
+                                        
+                                        <td width="20%" align="center"><strong>Предложенная цена, без учета НДС</strong></td>
+                                        <td width="20%" align="center"><strong>Обязательство по местному содержанию</strong></td>
+                                        <td width="20%" align="center"><strong>Срок заключения договора</strong></td>
+                                    </tr>
+                                            <tr>
+                                                
+                                                <td align="center">1</td>
+                                                <td id="shw_winner2-3">ТОО &quot;АктобеБолатСервисМунай&quot;</td>
+                                                
+                                                <td align="center">3 000 000.00</td>
+                                                <td align="center">60.00%</td>
+                                                <td align="center">10 Рабочих дней со дня подписания протокола</td>
+                                            </tr>
+                                    <tr>
+                                        <td colspan="5"><strong>Номер и наименование лота: ЛОТ № 4 наименование лота Работы по ремонту и обслуживанию электростанций на месторождении Жантерек Северный</strong></td>
+                                    </tr>
+                                    <tr>
+                                        <td colspan="5"><strong>Сумма, выделенная для закупа, без учета НДС: <u>3 000 000.00 тенге.</u></strong></td>
+                                    </tr>
+                                    <tr>
+                                        <td width="10%" align="center"><strong>№ п/п</strong></td>
+                                        <td width="20%" align="center"><strong>Наименование (фамилия, имя) поставщика</strong></td>
+                                        
+                                        <td width="20%" align="center"><strong>Предложенная цена, без учета НДС</strong></td>
+                                        <td width="20%" align="center"><strong>Обязательство по местному содержанию</strong></td>
+                                        <td width="20%" align="center"><strong>Срок заключения договора</strong></td>
+                                    </tr>
+                                            <tr>
+                                                
+                                                <td align="center">1</td>
+                                                <td id="shw_winner2-4">ТОО &quot;АктобеБолатСервисМунай&quot;</td>
+                                                
+                                                <td align="center">3 000 000.00</td>
+                                                <td align="center">60.00%</td>
+                                                <td align="center">10 Рабочих дней со дня подписания протокола</td>
+                                            </tr>
+                                    <tr>
+                                        <td colspan="5"><strong>Номер и наименование лота: ЛОТ № 5 наименование лота Работы по ремонту и обслуживанию электростанций на месторождении Карашказган</strong></td>
+                                    </tr>
+                                    <tr>
+                                        <td colspan="5"><strong>Сумма, выделенная для закупа, без учета НДС: <u>6 000 000.00 тенге.</u></strong></td>
+                                    </tr>
+                                    <tr>
+                                        <td width="10%" align="center"><strong>№ п/п</strong></td>
+                                        <td width="20%" align="center"><strong>Наименование (фамилия, имя) поставщика</strong></td>
+                                        
+                                        <td width="20%" align="center"><strong>Предложенная цена, без учета НДС</strong></td>
+                                        <td width="20%" align="center"><strong>Обязательство по местному содержанию</strong></td>
+                                        <td width="20%" align="center"><strong>Срок заключения договора</strong></td>
+                                    </tr>
+                                            <tr>
+                                                
+                                                <td align="center">1</td>
+                                                <td id="shw_winner2-5">ТОО &quot;АктобеБолатСервисМунай&quot;</td>
+                                                
+                                                <td align="center">6 000 000.00</td>
+                                                <td align="center">60.00%</td>
+                                                <td align="center">10 Рабочих дней со дня подписания протокола</td>
+                                            </tr>
+                                    <tr>
+                                        <td colspan="5"><strong>Номер и наименование лота: ЛОТ № 6 наименование лота Работы по ремонту и обслуживанию электростанций на месторождении Жартобе</strong></td>
+                                    </tr>
+                                    <tr>
+                                        <td colspan="5"><strong>Сумма, выделенная для закупа, без учета НДС: <u>3 000 000.00 тенге.</u></strong></td>
+                                    </tr>
+                                    <tr>
+                                        <td width="10%" align="center"><strong>№ п/п</strong></td>
+                                        <td width="20%" align="center"><strong>Наименование (фамилия, имя) поставщика</strong></td>
+                                        
+                                        <td width="20%" align="center"><strong>Предложенная цена, без учета НДС</strong></td>
+                                        <td width="20%" align="center"><strong>Обязательство по местному содержанию</strong></td>
+                                        <td width="20%" align="center"><strong>Срок заключения договора</strong></td>
+                                    </tr>
+                                            <tr>
+                                                
+                                                <td align="center">1</td>
+                                                <td id="shw_winner2-6">ТОО &quot;АктобеБолатСервисМунай&quot;</td>
+                                                
+                                                <td align="center">3 000 000.00</td>
+                                                <td align="center">60.00%</td>
+                                                <td align="center">10 Рабочих дней со дня подписания протокола</td>
+                                            </tr>
+                                    <tr>
+                                        <td colspan="5"><strong>Номер и наименование лота: ЛОТ № 7 наименование лота Работы по ремонту и обслуживанию электростанций на УПН (Установка подготовки нефти)</strong></td>
+                                    </tr>
+                                    <tr>
+                                        <td colspan="5"><strong>Сумма, выделенная для закупа, без учета НДС: <u>40 000 000.00 тенге.</u></strong></td>
+                                    </tr>
+                                    <tr>
+                                        <td width="10%" align="center"><strong>№ п/п</strong></td>
+                                        <td width="20%" align="center"><strong>Наименование (фамилия, имя) поставщика</strong></td>
+                                        
+                                        <td width="20%" align="center"><strong>Предложенная цена, без учета НДС</strong></td>
+                                        <td width="20%" align="center"><strong>Обязательство по местному содержанию</strong></td>
+                                        <td width="20%" align="center"><strong>Срок заключения договора</strong></td>
+                                    </tr>
+                                            <tr>
+                                                
+                                                <td align="center">1</td>
+                                                <td id="shw_winner2-7">ТОО &quot;АктобеБолатСервисМунай&quot;</td>
+                                                
+                                                <td align="center">40 000 000.00</td>
+                                                <td align="center">60.00%</td>
+                                                <td align="center">10 Рабочих дней со дня подписания протокола</td>
+                                            </tr>
+                                    <tr>
+                                        <td colspan="5"><strong>Номер и наименование лота: ЛОТ № 8 наименование лота Работы по ремонту и обслуживанию электростанций на месторождении Сарыкумак Восточный</strong></td>
+                                    </tr>
+                                    <tr>
+                                        <td colspan="5"><strong>Сумма, выделенная для закупа, без учета НДС: <u>3 000 000.00 тенге.</u></strong></td>
+                                    </tr>
+                                    <tr>
+                                        <td width="10%" align="center"><strong>№ п/п</strong></td>
+                                        <td width="20%" align="center"><strong>Наименование (фамилия, имя) поставщика</strong></td>
+                                        
+                                        <td width="20%" align="center"><strong>Предложенная цена, без учета НДС</strong></td>
+                                        <td width="20%" align="center"><strong>Обязательство по местному содержанию</strong></td>
+                                        <td width="20%" align="center"><strong>Срок заключения договора</strong></td>
+                                    </tr>
+                                            <tr>
+                                                
+                                                <td align="center">1</td>
+                                                <td id="shw_winner2-8">ТОО &quot;АктобеБолатСервисМунай&quot;</td>
+                                                
+                                                <td align="center">3 000 000.00</td>
+                                                <td align="center">60.00%</td>
+                                                <td align="center">10 Рабочих дней со дня подписания протокола</td>
+                                            </tr>
+                                    <tr>
+                                        <td colspan="5"><strong>Номер и наименование лота: ЛОТ № 9 наименование лота Работы по ремонту и обслуживанию электростанций на месторождении Сарыкумак Западный</strong></td>
+                                    </tr>
+                                    <tr>
+                                        <td colspan="5"><strong>Сумма, выделенная для закупа, без учета НДС: <u>3 000 000.00 тенге.</u></strong></td>
+                                    </tr>
+                                    <tr>
+                                        <td width="10%" align="center"><strong>№ п/п</strong></td>
+                                        <td width="20%" align="center"><strong>Наименование (фамилия, имя) поставщика</strong></td>
+                                        
+                                        <td width="20%" align="center"><strong>Предложенная цена, без учета НДС</strong></td>
+                                        <td width="20%" align="center"><strong>Обязательство по местному содержанию</strong></td>
+                                        <td width="20%" align="center"><strong>Срок заключения договора</strong></td>
+                                    </tr>
+                                            <tr>
+                                                
+                                                <td align="center">1</td>
+                                                <td id="shw_winner2-9">ТОО &quot;АктобеБолатСервисМунай&quot;</td>
+                                                
+                                                <td align="center">3 000 000.00</td>
+                                                <td align="center">60.00%</td>
+                                                <td align="center">10 Рабочих дней со дня подписания протокола</td>
+                                            </tr>
+                                    <tr>
+                                        <td colspan="5"><strong>Номер и наименование лота: ЛОТ № 10 наименование лота Работы по ремонту и обслуживанию электростанций на ЦППН (Центральный пункт подготовки нефти)</strong></td>
+                                    </tr>
+                                    <tr>
+                                        <td colspan="5"><strong>Сумма, выделенная для закупа, без учета НДС: <u>5 000 000.00 тенге.</u></strong></td>
+                                    </tr>
+                                    <tr>
+                                        <td width="10%" align="center"><strong>№ п/п</strong></td>
+                                        <td width="20%" align="center"><strong>Наименование (фамилия, имя) поставщика</strong></td>
+                                        
+                                        <td width="20%" align="center"><strong>Предложенная цена, без учета НДС</strong></td>
+                                        <td width="20%" align="center"><strong>Обязательство по местному содержанию</strong></td>
+                                        <td width="20%" align="center"><strong>Срок заключения договора</strong></td>
+                                    </tr>
+                                            <tr>
+                                                
+                                                <td align="center">1</td>
+                                                <td id="shw_winner2-10">ТОО &quot;АктобеБолатСервисМунай&quot;</td>
+                                                
+                                                <td align="center">5 000 000.00</td>
+                                                <td align="center">60.00%</td>
+                                                <td align="center">10 Рабочих дней со дня подписания протокола</td>
+                                            </tr>
+                            </tbody>
+                        </table>
+                        <table width="100%" border="1">
+                            <tbody>
+                                <tr>
+                                    <td class="title" align="">8. Код закупки: <u>2023.ОИ-399915</u>.</td>
+                                </tr>
+                                <tr>
+                                    <td class="title" align="">Адрес интернет-ресурса реестра: <u>http://reestr.nadloc.kz<u />.</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                        <table width="100%" border="1">
+                            <tr><td colspan="3" class="title">9. ЭЦП заказчика либо уполномоченным им лица.</td></tr>
+                            <tr>
+
+                                    <td align="center" width="33%">
+                                        <img src="/ru/protocol/SignImage/2374377?width=100&amp;height=100" />
+                                    </td>
+                                    <td align="center" width="33%">
+
+                                        <span><strong>Имя подписавшего:: </strong> САМЕТОВА АЙНУР</span>
+                                    </td>
+                                    <td align="center" width="33%">
+                                        <span><strong>Дата подписи:: </strong> 21.12.2023 17:28:19</span>
+                                    </td>
+                            </tr>
+                        </table>
+                        
+                        <table width="100%" border="1">
+                            <tbody>
+                                <tr>
+                                    <td class="title" align="">Расшифровка аббревиатур:</td>
+                                </tr>
+                                <tr>
+                                    <td class="title" align="">ТРУ – товары, работы и услуги;</td>
+                                </tr>
+                                <tr>
+                                    <td class="title" align="">КАТО – классификатор административно-территориальных объектов;</td>
+                                </tr>
+                                <tr>
+                                    <td class="title" align="">НДС – налог на добавленную стоимость;</td>
+                                </tr>
+                                <tr>
+                                    <td class="title" align="">ЭЦП – электронная цифровая подпись.</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+				</div>
+			</td>
+		</tr>
+	</tbody>
+</table>
+		</div>
+	</div>
+</div>
+
+<div id="protocol-result" class="alert alert-info" style="display: none">
+	<span>Пожалуйста подождите, идет отправка данных...</span> <a class="btn btn-danger" onclick="formback('#tender-form', '#tender-result')">Вернуться</a>
+</div>
+
+<a id="back-to-top" href="#" class="btn btn-primary btn-lg back-to-top"><span class="glyphicon glyphicon-chevron-up"></span></a>
+
+<style>
+	.back-to-top {
+		cursor: pointer;
+		position: fixed;
+		bottom: 20px;
+		left: 20px;
+		border-radius: 0px;
+		display: none;
+		z-index: 99;
+	}
+</style>
+
+<script>
+	$(document).ready(function () {
+		$(window).scroll(function () {
+			if ($(this).scrollTop() > 50) {
+				$('#back-to-top').fadeIn();
+			} else {
+				$('#back-to-top').fadeOut();
+			}
+		});
+		$('#back-to-top').click(function () {
+			$('#back-to-top').tooltip('hide');
+			$('body,html').animate({
+				scrollTop: 0
+			}, 800);
+			return false;
+		});
+
+		$('#back-to-top').tooltip('show');
+	});
+</script>
+<script>
+	$(function () {
+		window.signCallback = function (id, ts) {
+			$.post('/ru/Tender/SetSignId/399915', { 'signId': id }, function (raw) {
+				raw = raw ? raw : '';
+				var data = '';
+				try {
+					if (typeof raw === 'object') {
+						data = raw;
+					} else {
+						data = $.parseJSON(raw);
+					}
+				} catch (ex) {
+					data = { error: ex };
+				}
+
+				if (data.error) {
+					$('#protocol-result .btn').show();
+					$('#protocol-result span')
+						.text(data.error)
+						.parent()
+						.removeClass('alert-danger')
+						.addClass('alert-danger');
+					return;
+				}
+
+				location.reload();
+			}).error(function (request, status, error) {
+				$('#protocol-result .btn').show();
+				$('#protocol-result span')
+					.text(error)
+					.parent()
+					.removeClass('alert-danger')
+					.addClass('alert-danger');
+			});
+		}
+	});
+
+	function signProtocol() {
+		$('#protocol-result').hide().addClass('alert-info').removeClass('alert-danger');
+		$('#protocol-result .btn').hide();
+		$('#protocol-form').slideUp('fast', function () {
+			$('#protocol-result span')
+				.text('Пожалуйста подождите, идет отправка данных...')
+				.parent()
+				.addClass('alert-info')
+				.removeClass('alert-danger')
+				.slideDown('fast');
+			signProtocol_a()
+		});
+	}
+
+	function signProtocol_a() {
+		$.post('/ru/Tender/GetXML/399915', function (raw) {
+			raw = raw ? raw : '';
+			var data = '';
+			try {
+				if (typeof raw === 'object') {
+					data = raw;
+				} else {
+					data = $.parseJSON(raw);
+				}
+			} catch (ex) {
+				data = { error: ex };
+			}
+
+			if (data.error) {
+				$('#protocol-result .btn').show();
+				$('#protocol-result span')
+					.text(data.error)
+					.parent()
+					.removeClass('alert-danger')
+					.addClass('alert-danger');
+				return;
+			}
+
+			setDocSign(data.xml);
+		}).error(function (request, status, error) {
+			$('#protocol-result .btn').show();
+			$('#protocol-result span')
+				.text(error)
+				.parent()
+				.removeClass('alert-danger')
+				.addClass('alert-danger');
+		});
+	}
+</script>
+<!-- generated on 2023-12-22 02:09:24Z -->
+</div>
+<!-- END OF CONTENT -->
+<!-- MAIN OPTIONAL JS SCRIPTS -->
+
+<!-- END OF MAIN OPTIONAL JS SCRIPTS -->
+<script src="https://malsup.github.io/jquery.blockUI.js"></script>
+<div class="footer">
+    <div class="container">
+            <div class="pull-right">
+                <!-- Yandex.Metrika informer -->
+                <p class="text-muted">
+                    <a href="https://metrika.yandex.ru/stat/?id=25997988&amp;from=informer"
+                       target="_blank" rel="nofollow">
+                        <img src="//bs.yandex.ru/informer/25997988/3_0_90A0B0FF_708090FF_1_pageviews"
+                             style="width:88px; height:31px; border:0;" alt="Яндекс.Метрика" title="Яндекс.Метрика: данные за сегодня (просмотры, визиты и уникальные посетители)" />
+                    </a>
+                </p>
+                <!-- /Yandex.Metrika informer -->
+                <!-- Yandex.Metrika counter -->
+                <script type="text/javascript">
+                    (function (d, w, c) {
+                        (w[c] = w[c] || []).push(function () {
+                            try {
+                                w.yaCounter25997988 = new Ya.Metrika({
+                                    id: 25997988,
+                                    webvisor: true,
+                                    clickmap: true,
+                                    trackLinks: true,
+                                    accurateTrackBounce: true,
+                                    ut: "noindex"
+                                });
+                            } catch (e) { }
+                        });
+
+                        var n = d.getElementsByTagName("script")[0],
+                            s = d.createElement("script"),
+                            f = function () { n.parentNode.insertBefore(s, n); };
+                        s.type = "text/javascript";
+                        s.async = true;
+                        s.src = (d.location.protocol == "https:" ? "https:" : "http:") + "//mc.yandex.ru/metrika/watch.js";
+
+                        if (w.opera == "[object Opera]") {
+                            d.addEventListener("DOMContentLoaded", f, false);
+                        } else { f(); }
+                    })(document, window, "yandex_metrika_callbacks");
+                </script>
+                <noscript><div><img src="//mc.yandex.ru/watch/25997988?ut=noindex" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
+                <!-- /Yandex.Metrika counter -->
+            </div>
+    </div>
+    <p class="pull-right text-muted">Служба технической поддержки support@nadloc.kz</p>
+</div>
+<div class="modal fade" id="modal">
+    <div class="modal-dialog">
+        <div class="modal-content">
+        </div><!-- /.modal-content -->
+    </div><!-- /.modal-dialog -->
+</div><!-- /.modal -->
+<div class="modal fade" id="modal-large">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content" style="padding: 10px; max-height: 420px; overflow-y: auto;">
+        </div><!-- /.modal-content -->
+    </div><!-- /.modal-dialog -->
+</div><!-- /.modal -->
+<div class="modal fade" id="ncalayer-form" tabindex="-1" role="dialog">
+    <input type="hidden" id="xmlForSign">
+    <input type="hidden" id="xmlSigned">
+    <input type="hidden" id="keyAlias" value="" />
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                <h4 class="modal-title">ЭЦП</h4>
+            </div>
+            <div class="modal-body">
+                <div id="sign-form">
+                    <div class="alert alert-warning" role="alert">В связи с изменениями в алгоритме электронных ключей НУЦ РК работа с ЭЦП осуществляется через программу НУЦ РК - NCALayer.</div>
+                    <div class="form-group">
+                        <label for="storageAlias">Тип хранилища ключа</label>
+                        <select onchange="signXmlCall();" id="storageAlias" class="form-control">
+                            <option value="NONE">-- Выберите тип --</option>
+                            <option value="PKCS12">Ваш Компьютер</option>
+                            
+                        </select>
+                    </div>
+                    
+                    
+                    
+                    <div class="form-group">
+                        <label for="other">NCALayer - Программа НУЦ РК для работы с ЭЦП</label>
+                        <div id="other">
+                            <ul>
+                                <li><a href="https://pki.gov.kz/docs/nl_ru/" target="_blank">Инструкция по установке и настройке</a></li>
+                                <li><a href="https://pki.gov.kz/ncalayer/" target="_blank">Программа для Windows, Linux и MacOS</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div id="sign-result" class="alert"></div>
+            </div>
+            <div class="modal-footer">
+                
+                <button type="button" class="btn btn-default" data-dismiss="modal">Закрыть</button>
+            </div>
+        </div><!-- /.modal-content -->
+    </div><!-- /.modal-dialog -->
+</div><!-- /.modal -->
+
+
+
+<script>
+    function validateField(o) {
+        var error = '';
+        if (o.parents('.form-group').length > 0) o.parents('.form-group').removeClass('has-error').find('.bg-danger').remove();
+        else if (o.parents('.input-group').length > 0) o.parents('.input-group').removeClass('has-error').find('.bg-danger').remove();
+        else if (o.parents('.col-md-6').length > 0) o.parents('.col-md-6').removeClass('has-error').find('.bg-danger').remove();
+        else if (o.parents('.col-md-12').length > 0) o.parents('.col-md-12').removeClass('has-error').find('.bg-danger').remove();
+        else if (o.parents('.col-md-5').length > 0) o.parents('.col-md-5').removeClass('has-error').find('.bg-danger').remove();
+
+        if (o.attr('req')) {
+            eval('var rx = /' + o.attr('req') + '/ig');
+            if (!rx.test(o.val())) {
+                console.log('validation: ' + o.attr('id') + '/' + o.attr('name') + ' - FALSE');
+                if (o.parents('.form-group').length > 0) o.parents('.form-group').addClass('has-error');
+                else if (o.parents('.input-group').length > 0) o.parents('.input-group').addClass('has-error');
+                else if (o.parents('.col-md-6').length > 0) o.parents('.col-md-6').addClass('has-error');
+                else if (o.parents('.col-md-12').length > 0) o.parents('.col-md-12').addClass('has-error');
+                else if (o.parents('.col-md-5').length > 0) o.parents('.col-md-5').addClass('has-error');
+                if (o.attr('req-text') && !o.parent().find('.bg-danger').length) error += (error ? '<br>' : '') + o.attr('req-text');
+            }
+        }
+        if (o.attr('rx')) {
+            if (!o.val()) return;
+            var ex = 0;
+            if (o.hasClass('float')) {
+                ex = !$.isNumeric(o.val());
+            } else {
+                eval('var rx = /' + o.attr('rx') + '/ig');
+                ex = !rx.test(o.val());
+            }
+            if (ex) {
+                console.log('validation: ' + o.attr('id') + '/' + o.attr('name') + ' - FALSE');
+                if (o.parents('.form-group').length > 0) o.parents('.form-group').addClass('has-error');
+                else if (o.parents('.input-group').length > 0) o.parents('.input-group').addClass('has-error');
+                else if (o.parents('.col-md-6').length > 0) o.parents('.col-md-6').addClass('has-error');
+                else if (o.parents('.col-md-12').length > 0) o.parents('.col-md-12').addClass('has-error');
+                else if (o.parents('.col-md-5').length > 0) o.parents('.col-md-5').addClass('has-error');
+                if (o.attr('req-text') && !o.parent().find('.bg-danger').length) error += (error ? '<br>' : '') + o.attr('req-text');
+            }
+        }
+
+        if (error) $('<p class="bg-danger">' + o.attr('req-text') + '</p>').insertAfter(o);
+    }
+
+    function validateTrigger(owner) {
+        owner = owner ? owner + ' ' : '';
+        $(owner + '[req]').focusout(function () {
+            validateField($(this));
+        });
+
+        $(owner + '[rx]').focusout(function () {
+            validateField($(this));
+        });
+    }
+
+    function validate(owner) {
+        owner = owner ? owner + ' ' : '';
+        $(owner + '[req]').each(function () {
+            validateField($(this));
+        });
+
+        $(owner + '[rx]').each(function () {
+            validateField($(this));
+        });
+
+        return !($(owner + '.has-error').length > 0);
+    }
+
+
+    function common(owner) {
+        owner = owner ? owner + ' ' : '';
+        $(owner + 'select:not(.ignore)').selectpicker({ 'size': 'auto' });
+        $(owner + 'input.phone').attr('rx', '^\\+\\d+\\s\\(\\d+\\)\\s\\d+$');
+        $(owner + 'input.email').attr('rx', '^[a-z0-9][a-z0-9-_\.]+@([a-z0-9-\.])+[a-z0-9-\.]+$');
+        //$(owner + 'input.login').attr('rx', '^[a-zA-Z0-9-_$#&*+,!@\.]{3,40}$')
+        $(owner + 'input.idn').attr('rx', '^\\d{12}$');
+        $(owner + 'input.float').attr('rx', 1);
+        $(owner + 'input.int').attr('rx', '^\\d+$');
+        $(owner + 'input.req').attr('req', '^.+$');
+        $(owner + 'select.req').attr('req', '^.+$');
+
+        validateTrigger(owner);
+
+        $(owner + '.combo-dropdown-menu li a').click(function () {
+            $(this)
+                .parents('.input-group-btn')
+                .find('.selection')
+                .text($(this).text() + ' ')
+                .parents('.input-group-btn')
+                .removeClass('open')
+                .parent()
+                .find(':hidden')
+                .val($(this).attr('value'));
+            //$(this).parent('.input-group').find('.selection').val($(this).attr('value'));
+            return false;
+        });
+        $(owner + '.datetime').parent().datetimepicker({ language: 'ru' });
+        $(owner + '.date').parent().datetimepicker({ language: 'ru', pickTime: false });
+        $(owner + '.time').parent().datetimepicker({ language: 'ru', pickDate: false });
+
+        $(owner + '.datetime8').parent().datetimepicker({ language: 'ru', pickTime: false });
+        $(owner + '.datetime9').parent().datetimepicker({ language: 'ru', pickTime: false });
+
+        $(owner + ".datetime8").on("dp.change", function (e) {
+            $('.datetime9').data("DateTimePicker").setMinDate(e.date);
+        });
+        $(owner + ".datetime9").on("dp.change", function (e) {
+            $('.datetime8').data("DateTimePicker").setMaxDate(e.date);
+        });
+        $(owner + '[blink-delay]').each(function () {
+            $(this).blink({ delay: $(this).attr('blink-delay') })
+        });
+    }
+    $(function () {
+        common();
+        $('body').on('hidden.bs.modal', '.modal', function () {
+            $(this).removeData('bs.modal');
+        });
+        /*$('input').filter(function () {
+            for (var property in $(this).data()) {
+                if (property.indexOf('bvDigits') == 0) {
+                    //console.log($(this).attr('id') + ': [OK] ' + property)
+                    return true
+                };
+                //console.log($(this).attr('id') + ': ' + property)
+            }
+            return false;
+        }).each(function () {
+            $(this).bootstrapValidator();
+        });*/
+    });
+    $('body').tooltip({
+        placement: "top",
+        trigger: "hover",
+        selector: '[data-toggle=tooltip]'
+    });
+</script>
+    <script>
+        !(function (e) {
+            var basehref = "https://support.nadloc.kz",
+                token = "c5062a6e-a9e3-4360-83cb-3f25d17ef810";
+
+            window.deskcontactwidget = {};
+            var r = e.getElementsByTagName("script")[0], c = e.createElement("script"); c.type = "text/javascript", c.async = !0, c.src = basehref + "/support/v1/contact/main.js?token=" + token, r.parentNode.insertBefore(c, r), window.addEventListener("message", function (e) { var t = e.data[0], a = e.data[1]; switch (t) { case "setContactFormHeight": document.getElementById("deskcontactwidgetframe").height = Math.min(a, window.window.innerHeight - 75) } }, !1);
+        })(document);
+    </script>
+	</body>
+</html>
